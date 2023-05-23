@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public static int ticker;
+    [SerializeField] private GamePanel gamePanel;
+
     [SerializeField] private GameObject fillPrefab;
     [SerializeField] private List<Transform> allCells;
 

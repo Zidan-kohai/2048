@@ -10,8 +10,6 @@ public class Fill : MonoBehaviour
     private bool hasCombined;
     public int value;
 
-
-
     public void changeValue(int value)
     {
         this.value = value;
